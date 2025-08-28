@@ -13,6 +13,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar {
+  background-color: #f0f0f0;
+  padding: 15px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-link.active {
+  color: #007bff;
+  text-decoration: underline;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
